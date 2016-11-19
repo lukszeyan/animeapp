@@ -9,30 +9,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.s2012012.animeapp.MainActivity">
 
-    <LinearLayout
+    <ListView
+        android:id="@+id/list_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="1"
-            style="@style/Animation.AppCompat.Dialog" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="2"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="3"/>
-    </LinearLayout>
-
-
-
-
+        android:layout_height="match_parent">
+    </ListView>
 
 </LinearLayout>
